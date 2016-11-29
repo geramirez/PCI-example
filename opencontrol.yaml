@@ -1,0 +1,12 @@
+schema_version: "1.0.0"
+name: NewVersion
+metadata:
+  description: "A platform by government developers, for government developers."
+  maintainers:
+    - gabriel.ramirez@gsa.gov
+certifications:
+  - ./test-certification.yaml
+dependencies:
+  standards:
+    - url: https://github.com/opencontrol/PCI-DSS-Standards
+      revision: master
